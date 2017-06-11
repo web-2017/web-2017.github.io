@@ -7,7 +7,6 @@ $(function(){
 	//left btn
 	$('.prev').on('click', function(){
 		var index = $item.filter('.active').index();
-		console.log(index);
 
 		$item.eq(index - 1).addClass('active').siblings().removeClass('active');
 	});
